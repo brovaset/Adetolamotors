@@ -7,6 +7,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { Vehicles } from './components/Vehicles';
 import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
+import { Chatbot } from './components/Chatbot';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <ContactForm />
         </main>
         <Footer />
+        <Chatbot />
       </div>
     </LanguageProvider>
   );
